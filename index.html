@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="./resources/css/styles.css">
+
+        <title>Responsive Music Store Ecommerce</title>
+    </head>
+    <body>
+
+        <!-- Header and Navigation Bar Section -->
+
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav-logo">
+                    Jhomann
+                </a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active-link">
+                                <i class="ri-home-line"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link">
+                                <i class="ri-price-tag-3-line"></i>
+                                <span>New</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#collection" class="nav-link">
+                                <i class="ri-add-circle-line"></i>
+                                <span>Collection</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#products" class="nav-link">
+                                <i class="ri-music-line"></i>
+                                <span>Products</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme toggle icon -->
+
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            </nav>
+        </header>
+
+        <!-- Main Collection Section -->
+
+        <main class="main">
+            <section class="home section" id="home">
+                <div class="home-container container grid">
+                    <div class="home-data">
+                        <h1 class="home-title">
+                            New Guitar <br> 
+                            Collection
+                        </h1>
+
+                        <p class="home-description">
+                            The new collection of guitars from <br>
+                            the best brands this year
+                        </p>
+
+                        <a href="#new" class="button-link">
+                            Explore <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-images">
+                        <img src="./resources/img/home1.jpg" alt="Home image">
+                        <img src="./resources/img/home2.jpg" alt="Home image">
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Section -->
+
+            <section class="new section" id="new">
+                <h2 class="section-title">
+                    New Categories
+                </h2>
+
+                <div class="new-container container grid">
+                    <article class="new-card">
+                        <img src="./resources/img/new1.jpg" alt="New image" class="new-image">
+
+                        <a href="#" class="new-link">
+                            <div class="new-data">
+                                <h2 class="new-title">
+                                    Guitars
+                                </h2>
+                                <span class="new-subtitle">
+                                    Acoustic & Electric
+                                </span>
+                            </div>
+
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new-card">
+                        <img src="./resources/img/new2.jpg" alt="New image" class="new-image">
+
+                        <a href="#" class="new-link">
+                            <div class="new-data">
+                                <h2 class="new-title">
+                                    Basses
+                                </h2>
+                                <span class="new-subtitle">
+                                    Acoustic & Electric
+                                </span>
+                            </div>
+
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="new-card">
+                        <img src="./resources/img/new3.jpg" alt="New image" class="new-image">
+
+                        <a href="#" class="new-link">
+                            <div class="new-data">
+                                <h2 class="new-title">
+                                   Drums
+                                </h2>
+                                <span class="new-subtitle">
+                                    Acoustic & Electric
+                                </span>
+                            </div>
+
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Collection Section -->
+
+            <section class="collection section" id="collection">
+                <div class="collection-container container">
+
+                    <div class="collection-explore">
+                        <div class="collection-data-men">
+                            <h2 class="collection-title">
+                               Guitar Amp <br>
+                               Collection
+                            </h2>
+                            <a href="#" class="button-link">
+                                Explore Collections <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                        <img src="./resources/img/collection1.png" alt="Collection image">
+                    </div>
+
+                    <div class="collection-explore">
+                        <img src="./resources/img/collection2.png" alt="Collection image">
+                        <div class="collection-data-women">
+                            <h2 class="collection-title">
+                                Bass Amp <br>
+                                Collection
+                            </h2>
+                            <a href="#" class="button-link">
+                                Explore Collections <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Section -->
+
+            <section class="products section" id="products">
+                <h2 class="section-title">
+                    Best Products
+                </h2>
+
+                <div class="products-container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="products-card swiper-slide">
+                            <img src="./resources/img/Product1.jpg" alt="Product 1" class="products-image">
+
+                            <h2 class="products-title">
+                                RPS Guitar
+                            </h2>
+                            <span class="products-price">
+                                €1090
+                            </span>
+                        </article>
+
+                        <article class="products-card swiper-slide">
+                            <img src="./resources/img/Product2.jpg" alt="Product 1" class="products-image">
+
+                            <h2 class="products-title">
+                                Aderof Bass
+                            </h2>
+                            <span class="products-price">
+                                €3450
+                            </span>
+                        </article>
+
+                        <article class="products-card swiper-slide">
+                            <img src="./resources/img/Product3.jpg" alt="Product 1" class="products-image">
+
+                            <h2 class="products-title">
+                                Diamond&Pearl Drumkit
+                            </h2>
+                            <span class="products-price">
+                                €899
+                            </span>
+                        </article>
+
+                        <article class="products-card swiper-slide">
+                            <img src="./resources/img/Product4.jpg" alt="Product 1" class="products-image">
+
+                            <h2 class="products-title">
+                                Supa Kawai
+                            </h2>
+                            <span class="products-price">
+                                €2222
+                            </span>
+                        </article>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Brand Section -->
+
+            <section class="brand section">
+                <h2 class="section-title">
+                    Brands We Sell
+                </h2>
+
+                <div class="brand-container container grid">
+                   <img src="./resources/img/logo1.png" alt="logo image" class="brand-image">
+                   <img src="./resources/img/logo2.png" alt="logo image" class="brand-image">
+                   <img src="./resources/img/logo3.png" alt="logo image" class="brand-image">
+                   <img src="./resources/img/logo4.png" alt="logo image" class="brand-image">
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+
+        <footer class="footer section">
+            <div class="footer-container container grid">
+
+                <div>
+                    <a href="#" class="footer-logo">
+                        Shop
+                    </a>
+
+                    <p class="footer-description">
+                        We're proud to assist on your <br>
+                        rocking abilities!
+                    </p>
+                </div>
+
+                <div class="footer-content">
+                    <div>
+                        <h3 class="footer-title">
+                            Company
+                        </h3>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">Shop</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Category</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Contact-Info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">
+                            Blog
+                        </h3>
+
+                        <ul class="footer-links">
+                            <li>
+                                <a href="#" class="footer-link">Events</a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="footer-link">Popular News</a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="footer-link">Recent News</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">
+                            Office
+                        </h3>
+
+                        <p class="footer-information">
+                            Monday - Sunday <br>
+                            00 AM - 24 PM
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="footer-title">
+                            Contact Us
+                        </h3>
+
+                        <ul class="footer-social">
+                            <a href="https://m.facebook.com/joao.augusto.3990" target="_blank" class="footer-social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/joaopmaugusto/" target="_blank" class="footer-social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="" target="_blank" class="footer-social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-info container">
+                <span class="footer-copy">
+                    &#169; Copyright. Based on the work of Bedimcode. All Rights Reserved
+                </span>
+
+                <a href="" class="footer-terms">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!-- Scroll Up Add-on -->
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line"></i>
+        </a>
+        
+        <!-- Scroll Reveal JavaScript -->
+
+        <script src="./resources/js/scrollreveal.min.js"></script>
+
+        <!-- Main and Swiper JavaScript -->
+        
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="./resources/js/main.js"></script>
+    </body>
+</html>
